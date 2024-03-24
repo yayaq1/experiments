@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Directory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Background gradient color from the screenshot */
+        .gradient-background {
+            background: linear-gradient(180deg, #1a202c 0%, #2a4365 100%);
+        }
+
+        /* Exact styling for the title */
+        .title-style {
+            font-size: 3rem; /* Adjust as necessary to match the design */
+            font-weight: 700;
+        }
+
+        /* Search bar and icon styling */
+        .search-bar {
+            background-color: #2d3748; /* Dark background for the search bar */
+            border-radius: 0.5rem;
+        }
+
+        .search-icon {
+            color: #a0aec0; /* Light blue color for the icon */
+        }
+    </style>
+</head>
+<body class="gradient-background text-white">
+    <div class="flex justify-between items-center px-10 py-8">
+        <div>
+            <img src="https://placehold.co/100x50" alt="Logo Placeholder Image - A logo representing the educational institution" class="inline-block mr-4">
+            <span class="title-style">STUDENT DIRECTORY</span>
+        </div>
+        <div>
+            <span>Welcome! Mohammad Saeed</span>
+        </div>
+    </div>
+
+    <div class="flex justify-center items-center h-screen mt-[-100px]">
+        <div class="w-full max-w-xl">
+            <div class="mb-4">
+                <input type="text" class="search-bar w-full py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="List all the Computer Science Graduates of 2023 Batch.">
+            </div>
+            <div class="text-right">
+                <button class="search-icon">
+                    <i class="fas fa-arrow-up fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
