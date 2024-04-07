@@ -1,0 +1,15 @@
+.home {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .home h1 {
+    color: #007bff;
+  }
+  
+  .home p {
+    color: #333333;
+  }
+  
